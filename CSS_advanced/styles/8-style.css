@@ -1,4 +1,4 @@
-/* Delete text-decoration for the anchor */
+/* Adding line-height variable*/
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -14,7 +14,6 @@ body {
 
 a {
     color: var(--text-color);
-    text-decoration: none;
 }
 
 .visually-hidden {
