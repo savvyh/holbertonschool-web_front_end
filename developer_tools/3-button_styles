@@ -36,3 +36,4 @@
     box-sizing: border-box;
     margin-top: 1.5rem !important;
     text-align: center !important;
+    padding: 1rem 1.75rem;
