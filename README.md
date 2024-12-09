@@ -1,7 +1,7 @@
 # Web Front-End
 
 ## General 💻
-## 3 projects : 
+## 4 projects : 
 
 ### Html and CSS advanced : (project 1 and 2)
 End goal of the project with html and CSS (Image will be different)
@@ -22,3 +22,6 @@ Here is the website to analyze :  https://dev-tools.hbtn.info/
 <p align="center"><br>
   <img src="https://github.com/user-attachments/assets/b99534f8-f054-48e0-938e-c31d34ac731a">
 </p>
+
+### Sass & Scss : (fourth project)
+This project aims to master the fundamental concepts of Sass/SCSS to enhance CSS writing and maintenance. It covers essential Sass features, from basic syntax to advanced functionalities.
