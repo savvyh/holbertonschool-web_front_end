@@ -34,3 +34,9 @@ Sass ⚡ Scss
 10. Import colors
 11. For each
 12. Loop Headers
+
+4 advanced tasks : 
+13. Columns and operators
+14. Media query #0
+15. Media query #1
+16. Sort
