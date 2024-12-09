@@ -1,0 +1,6 @@
+/* create a H* tag where * is the size of the font used */
+@for $h from 1 through 5 {
+    h#{$h} {
+        font-size: #{$h}px;
+    }
+}
