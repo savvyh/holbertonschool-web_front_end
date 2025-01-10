@@ -13,7 +13,7 @@ The project is about `flexbox`.
 <hr>
 
 ### Tasks 🚀
-14 tasks for this project :
+15 tasks for this project :
 
 0. Add display flex
 1. Add new classes on sections
@@ -31,3 +31,8 @@ The project is about `flexbox`.
 13. The meta list inside the aside section
 14. Add the share social icons
 
+2 advanced tasks: 
+- Use `flexbox`
+- Don't use `margin`, `padding` and `flex-align`
+- Make this :
+<img src="https://github.com/user-attachments/assets/e23fa3cc-c060-4e2f-bd5c-8aa4543ff457">
