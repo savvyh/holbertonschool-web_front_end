@@ -19,3 +19,6 @@ This project is about `forms`.
 4. add help messages
 5. add pure HTML / CSS error handling
 6. add the search form
+
+## Final rendering :
+![image](https://github.com/user-attachments/assets/d9547d0a-dffb-4cda-8640-d04f2576e893)
