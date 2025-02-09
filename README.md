@@ -33,4 +33,4 @@ Learn how to make a website responsive. Use media queries to change the layout o
 Wireframe of the Techium project - mobile version
 <hr>
 <p align="center"><br>
-  <img src="https://github.com/user-attachments/assets/b99534f8-f054-48e0-938e-c31d34ac731a">
+  <img src="https://github.com/user-attachments/assets/54dfa1cf-790c-48f7-80ef-89355b8e8a61">
