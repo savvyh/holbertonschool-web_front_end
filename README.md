@@ -1,7 +1,7 @@
 # Web Front-End
 
 ## General 💻
-## 5 projects : 
+## 6 projects : 
 
 ### Html and CSS advanced : (project 1 and 2)
 End goal of the project with html and CSS (Image will be different)
@@ -34,3 +34,8 @@ Wireframe of the Techium project - mobile version
 <hr>
 <p align="center"><br>
   <img src="https://github.com/user-attachments/assets/54dfa1cf-790c-48f7-80ef-89355b8e8a61">
+
+### Accessibility : (sixth project)
+Learn how to make a website accessible. Use ARIA attributes to enhance interactivity for people with disabilities.
+
+ARIA (Accessible Rich Internet Applications) aims to improve web accessibility by providing additional attributes to describe interface elements. WCAG conformance levels (A, AA, and AAA) define different degrees of accessibility, from basic to comprehensive. Web accessibility is crucial as it enables all users, including those with disabilities, to access web content. To test and improve accessibility, several tools are available such as WAVE, aXe, or screen readers.
