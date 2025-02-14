@@ -167,11 +167,6 @@
   
   /* Helpers
       ============================= */
-
-  main img {
-    width: 100%;
-    height: auto;
-  }    
   
   .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
@@ -180,6 +175,11 @@
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
   }
   
   /*** 2. LAYOUT ***/
@@ -194,8 +194,7 @@
   }
   
   /* Grid
-      ============================= */
-  
+      ============================= */ 
   ul.row {
     margin: -1rem;
     padding: 0;
@@ -217,28 +216,28 @@
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-
-  @media screen and (max-width: 767px) {
+  
+  @media (max-width: 767px) {
     :root {
       --section-padding: 5rem 1.5rem;
       --section-body-padding: 2rem 0 0;
     }
 
-    ul.row .row {
+    ul.row,
+    .row {
       flex-direction: column;
       margin: 0;
     }
-
-    [class*="col-"] {
+    
+    [class*='col-'] {
       margin: 0 0 3rem 0;
     }
-
-    .col-1-3, .col-1-2 {
+    
+    .col-1-3,
+    .col-1-2 {
       width: 100%;
     }
   }
-
-  
   /* Navbar
       ============================= */
   
@@ -288,7 +287,7 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: 767px) {
     .navbar-menu {
       display: none;
     }
@@ -302,6 +301,7 @@
     position: relative;
     z-index: 3;
     background: transparent;
+    background-image: url(./images/banner-home.jpg);
   }
   
   .header-container {
@@ -396,10 +396,14 @@
   .section-hero {
     position: relative;
     margin-top: -8.5rem;
+    background-position: 75% 0;
+    background-repeat: no-repeat;
+    background-size: 90rem auto;
+    background-color: #010101;
   }
   
   .hero-homepage {
-    background-image: url(images/banner-home.jpg);
+    background-image: url(./images/banner-home.jpg);
     background-position: 65% 8rem;
     background-repeat: no-repeat;
     background-size: 90rem auto;
@@ -421,14 +425,17 @@
   .section-hero .section-inner {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
     min-height: 35vh;
   }
   /* Section Latest news
       ============================= */
   
-  @media screen and (max-width: 767px) {
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
+
+  @media (max-width: 767px) {
     .section-latest-news .row {
       flex-direction: column;
     }

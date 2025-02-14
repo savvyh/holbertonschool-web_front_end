@@ -270,6 +270,7 @@
     position: relative;
     z-index: 3;
     background: transparent;
+    background-image: url(./images/banner-home.jpg);
   }
   
   .header-container {
@@ -367,7 +368,7 @@
   }
   
   .hero-homepage {
-    background-image: url(images/banner-home.jpg);
+    background-image: url(./images/banner-home.jpg);
     background-position: 75% 0;
     background-repeat: no-repeat;
     background-size: 90rem auto;
