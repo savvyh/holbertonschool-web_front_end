@@ -37,7 +37,7 @@ fix a11y :
 ### Tools 🥇
 - Chrome extension : aXe DevTools
 - Chrome extension : HeadingsMap
-- Chrome extension : Landmark
+- Chrome extension : Landmark Navigation
 
 ## Author 🧞‍♀️
 Sarah Boutier
