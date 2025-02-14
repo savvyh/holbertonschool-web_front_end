@@ -16,8 +16,13 @@ To make a website accessible, we use several key tools:
    - Screen readers
 
 ## Tasks 🖱️
+Keyboard navigation :
 * Task 0: make the "works" card focus visible
+
+Skip links :
 * Task 1: add the skip-links
+
+fix a11y :
 * Task 2: Elements must have sufficient color contrast
 * Task 3: Documents must have <title> element to aid in navigation
 * Task 4: <html> element must have a lang attribute
@@ -28,6 +33,11 @@ To make a website accessible, we use several key tools:
 * Task 9: Heading levels should only increase by one and all page content must be contained by landmarks
 * Task 10: Document must have one main landmark
 * Task 11: More than 2 elements become list
+
+### Tools 🥇
+- Chrome extension : aXe DevTools
+- Chrome extension : HeadingsMap
+- Chrome extension : Landmark
 
 ## Author 🧞‍♀️
 Sarah Boutier
