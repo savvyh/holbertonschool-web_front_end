@@ -39,3 +39,16 @@ Wireframe of the Techium project - mobile version
 Learn how to make a website accessible. Use ARIA attributes to enhance interactivity for people with disabilities.
 
 ARIA (Accessible Rich Internet Applications) aims to improve web accessibility by providing additional attributes to describe interface elements. WCAG conformance levels (A, AA, and AAA) define different degrees of accessibility, from basic to comprehensive. Web accessibility is crucial as it enables all users, including those with disabilities, to access web content. To test and improve accessibility, several tools are available such as WAVE, aXe, or screen readers.
+
+### Bootstrap : (seventh project)
+Learn how to use Bootstrap to create a responsive website.
+
+- Usage of Containers
+- Usage of the Grid system
+- Usage of Components
+- Usage of Utilities
+
+Use the CDN version : 
+```
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
+```
