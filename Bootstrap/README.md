@@ -1,4 +1,7 @@
 # Bootstrap
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1fd42393-9110-4c53-b603-437a6e046b6e" alt="bootstrap logo" height=300px; width=300px;>
+</div>
 
 ## General 💻
 
@@ -25,12 +28,12 @@ Bootstrap utilities are small, reusable CSS classes that can be applied to HTML 
 ## Requirements 🔅
 Use the CDN version : 
 - Add this <link> in the <head> part of your HTML
-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+- `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`
 
 ## Tasks : 📚
 0. Reboot styling : Add Bootstrap to reset the CSS styling.
 1. Blocks : Build a responsive web page of color blocks.
-2. Table of chemical elements : Build a responsive table of chemical elements.
+2. Table of chemical elements : Build a responsive table of chemical elements :
 3. Cards : Build a responsive page with cards.
 4. Bob Dylan : Build a responsive page of Bob Dylan.
 5. Show/Hide - screen size : Build a responsive page and show dynamically the screen size.
