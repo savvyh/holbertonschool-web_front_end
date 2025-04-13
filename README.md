@@ -61,3 +61,10 @@ Learning Objectives :
 - How to use closure
 - How to chain different closures
 - How to simulate private methods with Closure
+
+#### JQuery_advanced : 
+Learn how to use JQuery to make a website interactive.
+
+- Usage of JQuery
+- Usage of the DOM
+- Usage of Json server
