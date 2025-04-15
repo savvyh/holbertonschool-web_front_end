@@ -1,109 +1,109 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      },
-      {
-        "title": "Php",
-        "author": "Rasmus Lerdorf",
-        "id": 2
-      },
-      {
-        "title": "Python",
-        "author": "Guido van Rossum",
-        "id": 3
-      },
-      {
-        "title": "JavaScript",
-        "author": "Brendan Eich",
-        "id": 4
-      },
-      {
-        "title": "React",
-        "author": "Jordan Walke",
-        "id": 5
-      },
-      {
-        "title": "Learn Jquery",
-        "author": "Chatgpt",
-        "id": 6
-      },
-      {
-        "title": "How to use hooks with React",
-        "author": "Claude",
-        "id": 7
-      },
-      {
-        "title": "10 projects with Python",
-        "author": "Youtube",
-        "id": 8
-      },
-      {
-        "title": "Ultime formation web",
-        "author": "Holberton School",
-        "id": 9
-      },
-      {
-        "title": "Lancer un serveur web",
-        "author": "Youtube",
-        "id": 10
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "Nice article !",
-        "postId": 1
-      },
-      {
-        "id": 2,
-        "body": "I'm not sure about that",
-        "postId": 1
-      },
-      {
-        "id": 3,
-        "body": "Wow !",
-        "postId": 1
-      },
-      {
-        "id": 4,
-        "body": "I made it !",
-        "postId": 1
-      },
-      {
-        "id": 5,
-        "body": "Difficult to understand",
-        "postId": 1
-      },
-      {
-        "id": 6,
-        "body": "Interesting",
-        "postId": 1
-      },
-      {
-        "id": 7,
-        "body": "Very good",
-        "postId": 1
-      },
-      {
-        "id": 8,
-        "body": "Did it again !",
-        "postId": 1
-      },
-      {
-        "id": 9,
-        "body": "Very helpful",
-        "postId": 1
-      },
-      {
-        "id": 10,
-        "body": "Thanks !",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Php",
+      "author": "Rasmus Lerdorf",
+      "id": "2"
+    },
+    {
+      "title": "Python",
+      "author": "Guido van Rossum",
+      "id": "3"
+    },
+    {
+      "title": "JavaScript",
+      "author": "Brendan Eich",
+      "id": "4"
+    },
+    {
+      "title": "React",
+      "author": "Jordan Walke",
+      "id": "5"
+    },
+    {
+      "title": "Learn Jquery",
+      "author": "Chatgpt",
+      "id": "6"
+    },
+    {
+      "title": "How to use hooks with React",
+      "author": "Claude",
+      "id": "7"
+    },
+    {
+      "title": "10 projects with Python",
+      "author": "Youtube",
+      "id": "8"
+    },
+    {
+      "title": "Ultime formation web",
+      "author": "Holberton School",
+      "id": "9"
+    },
+    {
+      "title": "Lancer un serveur web",
+      "author": "Youtube",
+      "id": "10"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Nice article !",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "I'm not sure about that",
+      "postId": 1
+    },
+    {
+      "id": "3",
+      "body": "Wow !",
+      "postId": 1
+    },
+    {
+      "id": "4",
+      "body": "I made it !",
+      "postId": 1
+    },
+    {
+      "id": "5",
+      "body": "Difficult to understand",
+      "postId": 1
+    },
+    {
+      "id": "6",
+      "body": "Interesting",
+      "postId": 1
+    },
+    {
+      "id": "7",
+      "body": "Very good",
+      "postId": 1
+    },
+    {
+      "id": "8",
+      "body": "Did it again !",
+      "postId": 1
+    },
+    {
+      "id": "9",
+      "body": "Very helpful",
+      "postId": 1
+    },
+    {
+      "id": "10",
+      "body": "Thanks !",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
