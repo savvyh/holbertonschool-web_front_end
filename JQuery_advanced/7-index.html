@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 7</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <script>
+            function createSearchForm() {
+                $('body').append(
+                    $('<input type="text">'),
+                    $('<input type="submit" value="Submit">').click(function (e) {
+                        e.preventDefault();
+                        queryWikipedia($('input[type="text"]').val());
+                    }),
+                    $('<ul>')
+                );
+            }
+
+            function addNewArticle(id, title, snippet) {
+                $('body').append(
+                    $('ul').append(
+                        $('<li>').append(
+                            $('<p>').append(
+                                $('<span>').text(id + ' - '),
+                                $('<b>').text(title)
+                            ),
+                            $('<p>').html(snippet)
+                        )
+                    )
+                );
+            }
+
+            function queryWikipedia(search) {
+                $.ajax({
+                    url: 'https://en.wikipedia.org/w/api.php',
+                    data: {
+                    action: 'query',
+                    list: 'search',
+                    srsearch: search,
+                    format: 'json',
+                    origin: '*'
+                    },
+                    success: function (data) {
+                        $('ul').empty();
+                        data.query.search.forEach(function (result) {
+                            addNewArticle(result.pageid, result.title, result.snippet);
+                        });
+                    }
+                });
+            }
+
+            $(document).ready(function() {
+                createSearchForm();
+            });
+        </script>
+    </body>
+    
+</html>
