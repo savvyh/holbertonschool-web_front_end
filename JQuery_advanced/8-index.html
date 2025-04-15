@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 8</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <script>
+            function createSearchForm() {
+                $('body').append(
+                    $('<input type="text">'),
+                    $('<input type="submit" value="Submit">').click(function (e) {
+                        e.preventDefault();
+                        queryWikipedia($('input[type="text"]').val());
+                    }),
+                    $('<ul>'),
+                    $('<ul id="pagination">').css({
+                        'display': 'flex',
+                        'list-style': 'none',
+                        'padding': '0'
+                    })
+                );
+            }
+
+            function addNewArticle(id, title, snippet) {
+                $('body').append(
+                    $('ul').append(
+                        $('<li>').append(
+                            $('<p>').append(
+                                $('<span>').text(id + ' - '),
+                                $('<b>').text(title)
+                            ),
+                            $('<p>').html(snippet)
+                        )
+                    )
+                );
+            }
+
+            function queryWikipedia(search, offset = 0) {
+                $.ajax({
+                    url: 'https://en.wikipedia.org/w/api.php',
+                    data: {
+                    action: 'query',
+                    list: 'search',
+                    srsearch: search,
+                    format: 'json',
+                    origin: '*',
+                    offset: offset,
+                    },
+                    success: function (data) {
+                        $('ul').empty();
+                        data.query.search.forEach(function (result) {
+                            addNewArticle(result.pageid, result.title, result.snippet, result.offset);
+                        });
+                        buildPagination(data.query.searchinfo.totalhits, 10, offset);
+                    }
+                });
+            }
+
+            function buildPagination (numberOfItems, itemsPerPage, currentOffset) {
+                $('#pagination').empty();
+                for (let i = 0; i < numberOfItems; i ++) {
+                    $('#pagination').append(
+                        $('<li>').text(i).css({
+                            'cursor': 'pointer',
+                            'margin-left': '10px',
+                            'font-weight': (i * itemsPerPage === currentOffset) ? 'bold' : 'normal'
+                        }).click(function () {
+                            queryWikipedia($('input[type="text"]').val(), i * itemsPerPage);
+                        })
+                    );
+                }
+            }
+            $(document).ready(function() {
+                createSearchForm();
+            });
+        </script>
+    </body>
+    
+</html>
