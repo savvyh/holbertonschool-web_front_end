@@ -17,9 +17,9 @@
         const mail = document.getElementById("email").value;
         const expirationDate = new Date();
         expirationDate.setTime(expirationDate.getTime() + 10 * 24 * 60 * 60 * 1000);
-        document.cookie = "firstname=" + name + ";";
-        document.cookie = "email=" + mail + ";";
-        document.cookie = "expirationDate=" + expirationDate.toUTCString() + ";";
+        let expires = "expires=" + expirationDate.toUTCString();
+        document.cookie = "firstname=" + name + ";" + expires + ";path=/";
+        document.cookie = "email=" + mail + ";" + expires + ";path=/";
     }
     function showCookies(){
         const p = document.createElement("p");
